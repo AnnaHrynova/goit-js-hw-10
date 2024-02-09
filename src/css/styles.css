@@ -23,3 +23,64 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+/*********************** TIMER ************************/
+
+.timer-section {
+  margin-bottom: 16px;
+}
+
+#datetime-picker {
+  width: 180px;
+  height: 20px;
+}
+
+button[data-start] {
+  width: 50px;
+  height: 26px;
+}
+
+.timer {
+  display: flex;
+  gap: 16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  gap: 8px;
+}
+
+.value {
+  font-size: 36px;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+/*********************** SNACKBAR ************************/
+
+.form {
+  max-width: 300px;
+  margin-top: 12px;
+  /* gap: 10px; */
+}
+
+.delay-label {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type='number'] {
+  height: 30px;
+}
+
+.submit {
+  width: 300px;
+  height: 24px;
+  margin-top: 8px;
+}
